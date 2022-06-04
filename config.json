@@ -77,8 +77,8 @@
 		"itunes_author": "[ITUNES_AUTHOR]",
 		"itunes_email": "[ITUNES_EMAIL]",
 		"itunes_cover": "[ITUNES_COVER]",
-		"twitter_username": "[TWITTER_USERNAME]",
-		"github_username": "[GITHUB_USERNAME]",
+		"twitter_username": "johnlin__",
+		"github_username": "John-Lin",
 		"instagram_username": "[INSTAGRAM_USERNAME]",
 		"site_id": "[SITE_ID]",
 		"paginate_home": false,
@@ -88,7 +88,7 @@
 		"plugins_css": [],
 		"plugins_js": [],
 		"plugins_html": [],
-		"subtitle": "enter your subtitle here",
+		"subtitle": "Life",
 		"ogimage": "https://micro.blog/[USERNAME]/avatar.jpg"
 	}
 }
