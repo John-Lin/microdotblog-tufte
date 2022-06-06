@@ -35,6 +35,13 @@
 	font-display: swap;
 }
 
+.chroma {
+  background-color: #fcf6f6;
+  box-shadow: 1px 2px 3px rgba(68, 68, 68, 0.3);
+  border: 0.5px solid #cccccc;
+  border-radius: 4px;
+  }
+
 /* Tufte CSS styles */
 
 html {
@@ -565,11 +572,43 @@ a.categorycloud-item {
 
 /* Code sections */
 
-code, pre > code {
-	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-	font-size: 1.0rem;
-	line-height: 1.42;
-	-webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
+/* Code */
+code,
+pre {
+  font-family: SF Mono, Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
 }
 
 .sans > code {
